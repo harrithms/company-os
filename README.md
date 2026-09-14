@@ -108,6 +108,24 @@ of these files is further along than one with a full wiki nobody trusts.
 The same three parts: what the file is for, the questions it has to answer, and a worked example
 in a company that does not exist. Replace the example. Keep the questions.
 
+## Seeing it filled in
+
+Everything in `os/` is blank. [`example/`](example/) is the same files with a company in them —
+**Kestrel**, fourteen invented people, invented numbers — so you can see the filled-in shape before
+you write your own.
+
+It is deliberately messy. Three of fourteen people are on plan, six have no documented goal at all,
+one target is unratified and one measurement is three weeks old. That is what two months into doing
+this honestly looks like, and the states `no-target`, `proposed`, `stale` and `needs-setup` exist so
+the gaps are visible rather than absent.
+
+Four of those files are rendered as a live org chart at
+[eudaimoniaventures.com/tools/accountability][demo]. Every colour on that page is computed from
+`status-rules.md` at build time — none of it is typed — which is the practical argument for keeping
+a company in files: something else can read them.
+
+[demo]: https://www.eudaimoniaventures.com/tools/accountability
+
 ## Making it multiplayer
 
 Most AI use inside a company is single-player: a private chat window, a prompt nobody else has, and

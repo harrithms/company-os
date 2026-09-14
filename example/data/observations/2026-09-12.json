@@ -1,0 +1,14 @@
+{
+  "as_of": "2026-09-12",
+  "quarter": { "id": "2026-Q3", "start": "2026-07-01", "end": "2026-09-30" },
+  "note": "Fictional. One day's measurements for the example company, in the shape a real pull writes.",
+  "observations": [
+    { "person": "Priya Raman", "metric": "Net new ARR", "value": 498200, "measured": "2026-09-12", "source": "CRM" },
+    { "person": "Luca Fontana", "metric": "Qualified accounts", "value": 121, "measured": "2026-09-12", "source": "CRM" },
+    { "person": "Grete Sorensen", "metric": "Runway", "value": 21.4, "measured": "2026-09-01", "source": "Finance close" },
+    { "person": "Noor Abadi", "metric": "Report on time", "value": 100, "measured": "2026-09-08", "source": "This repository" },
+    { "person": "Sam Okafor", "metric": "Activated in 14 days", "value": 61, "measured": "2026-09-12", "source": "Product analytics" },
+    { "person": "Marta Kovacs", "metric": "P75 bug lead time", "value": 11.5, "measured": "2026-08-19", "source": "Issue tracker" },
+    { "person": "Rui Alves", "metric": "First response time", "value": 2.1, "measured": "2026-09-12", "source": "Support desk" }
+  ]
+}
