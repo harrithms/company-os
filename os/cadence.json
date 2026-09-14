@@ -1,0 +1,80 @@
+{
+  "_comment": "The rhythm, machine-readable. status: live | designed | proposed. `designed` means it exists on paper but is not actually happening \u2014 say so.",
+  "rituals": [
+    {
+      "id": "weekly-review",
+      "name": "Weekly review",
+      "frequency": "weekly",
+      "owner": null,
+      "reads": [
+        "accountability/goals.md",
+        "accountability/status-rules.md"
+      ],
+      "status": "designed"
+    },
+    {
+      "id": "one-on-one",
+      "name": "One-to-one",
+      "frequency": "weekly",
+      "owner": null,
+      "reads": [
+        "accountability/goals.md",
+        "reporting/one-on-ones.md"
+      ],
+      "status": "designed"
+    },
+    {
+      "id": "monthly-review",
+      "name": "Monthly review",
+      "frequency": "monthly",
+      "owner": null,
+      "reads": [
+        "reporting/monthly.md"
+      ],
+      "status": "designed"
+    },
+    {
+      "id": "all-hands",
+      "name": "All-hands",
+      "frequency": "fortnightly",
+      "owner": null,
+      "reads": [
+        "direction/north-star.md",
+        "direction/annual-priorities.md"
+      ],
+      "status": "designed"
+    },
+    {
+      "id": "quarterly-planning",
+      "name": "Quarterly planning",
+      "frequency": "quarterly",
+      "owner": null,
+      "reads": [
+        "planning/quarterly/okrs.md",
+        "planning/quarterly/roadmap.md"
+      ],
+      "status": "designed"
+    },
+    {
+      "id": "board",
+      "name": "Board review",
+      "frequency": "quarterly",
+      "owner": null,
+      "reads": [
+        "reporting/board.md"
+      ],
+      "status": "designed"
+    },
+    {
+      "id": "onboarding",
+      "name": "Onboarding",
+      "frequency": "as-needed",
+      "owner": null,
+      "reads": [
+        "os/operating-manual.md",
+        "people/onboarding.md"
+      ],
+      "status": "designed"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "company-os",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A company's operating model as plain files: direction, accountability, rhythm and memory.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  }
+}

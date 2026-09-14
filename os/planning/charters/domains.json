@@ -1,0 +1,26 @@
+{
+  "_comment": "One entry per domain. Delete these and write your own.",
+  "domains": [
+    {
+      "id": "acquisition",
+      "name": "Acquisition",
+      "owner": null,
+      "metric": "Qualified accounts created",
+      "charter": "acquisition.md"
+    },
+    {
+      "id": "onboarding",
+      "name": "Onboarding",
+      "owner": null,
+      "metric": "Activated within 14 days",
+      "charter": "onboarding.md"
+    },
+    {
+      "id": "retention",
+      "name": "Retention",
+      "owner": null,
+      "metric": "Voluntary churn",
+      "charter": "retention.md"
+    }
+  ]
+}

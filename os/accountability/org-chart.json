@@ -1,0 +1,29 @@
+{
+  "_comment": "Who reports to whom. The real shape, not the aspirational one. Delete these people and add your own.",
+  "people": [
+    {
+      "id": "founder",
+      "name": "<Founder>",
+      "role": "Founder",
+      "reports_to": null
+    },
+    {
+      "id": "growth",
+      "name": "<Name>",
+      "role": "Head of Growth",
+      "reports_to": "founder"
+    },
+    {
+      "id": "onboarding",
+      "name": "<Name>",
+      "role": "Onboarding lead",
+      "reports_to": "growth"
+    },
+    {
+      "id": "finance",
+      "name": "<Name>",
+      "role": "Finance",
+      "reports_to": "founder"
+    }
+  ]
+}
