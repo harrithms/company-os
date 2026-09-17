@@ -42,19 +42,23 @@ So an agent may draft the weekly review, and a person still ratifies the goal.
 
 That single rule is what makes it reasonable to give an agent repository access at all.
 
-## The six
+## The nine
 
 | Skill | The job |
 |---|---|
-| [`set-accountability`](set-accountability.md) | Give one person one metric and one goal, and record who agreed it |
+| [`set-accountability`](set-accountability.md) | One person, one metric, one goal, and who agreed it |
 | [`plan-quarter`](plan-quarter.md) | Grade the quarter honestly, then set the next one |
-| [`run-weekly-review`](run-weekly-review.md) | Assemble what changed and surface what needs a decision |
-| [`diagnose-metric`](diagnose-metric.md) | Work out why a number moved, or whether it can be trusted |
-| [`prepare-report`](prepare-report.md) | Generate weekly, monthly or board from the files |
-| [`update-company-context`](update-company-context.md) | Keep `os/` true when something changes upstream |
+| [`run-weekly-review`](run-weekly-review.md) | What changed, what is off track, what needs deciding |
+| [`run-a-one-to-one`](run-a-one-to-one.md) | The weekly and the monthly, asking different questions |
+| [`diagnose-metric`](diagnose-metric.md) | Why the number moved — or whether it can be trusted at all |
+| [`prepare-report`](prepare-report.md) | Weekly, monthly, board, generated from the files |
+| [`review-customer-signal`](review-customer-signal.md) | What customers actually said, counted, reaching the plan |
+| [`onboard-someone`](onboard-someone.md) | From a start date to genuinely useful, in the right order |
+| [`update-company-context`](update-company-context.md) | Keep os/ true when something changes upstream |
 
-Six, because these are the routines that happen often enough that doing them differently each time
-has a visible cost. A job that happens once is not a skill; it is a task.
+Nine, because these are the routines that happen often enough that doing them differently each
+time has a visible cost. A job that happens once is not a skill; it is a task — which is why there
+is no skill here for writing the strategy, and why there probably never will be.
 
 ## How a skill is written
 

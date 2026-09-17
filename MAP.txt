@@ -48,11 +48,14 @@ skills/ is what makes the rest of it multiplayer
                                │  an agent with repo access  │
                                └─────────────────────────────┘
 
-  set-accountability    one person, one metric, one goal, and who agreed it
-  plan-quarter          grade the quarter honestly, then set the next one
-  run-weekly-review     what changed, what is off track, what needs deciding
-  diagnose-metric       why the number moved — or whether it can be trusted at all
-  prepare-report        weekly, monthly, board, generated from the files
+  set-accountability      one person, one metric, one goal, and who agreed it
+  plan-quarter            grade the quarter honestly, then set the next one
+  run-weekly-review       what changed, what is off track, what needs deciding
+  run-a-one-to-one        the weekly and the monthly, asking different questions
+  diagnose-metric         why the number moved — or whether it can be trusted at all
+  prepare-report          weekly, monthly, board, generated from the files
+  review-customer-signal  what customers actually said, counted, reaching the plan
+  onboard-someone         from a start date to genuinely useful, in the right order
   update-company-context  keep os/ true when something changes upstream
 
   The one rule: a skill reads os/ and data/, writes reports/, and only ever *proposes* a change

@@ -20,7 +20,7 @@ example/
 
 ## Why it is deliberately messy
 
-Two of fourteen people are green. Six have no documented goal at all. One metric has no target,
+Three of fourteen people are on plan. Six have no documented goal at all. One metric has no target,
 one goal is unratified, one number has not been updated in three weeks.
 
 That is the realistic state of a company two months into doing this, and showing it is the point.
