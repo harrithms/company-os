@@ -3,8 +3,8 @@ status: template
 owner: ~
 reviewed: ~
 runs: last two weeks of the quarter
-reads: [os/planning/quarterly/okrs.md, os/planning/roadmap.md, os/planning/charters/, os/direction/annual-priorities.md, data/observations/]
-writes: [os/planning/quarterly/okrs.md, os/planning/quarterly/retrospectives.md, os/planning/roadmap.md, os/accountability/goals.md]
+reads: [os/planning/quarterly/okrs.md, os/planning/quarterly/roadmap.md, os/planning/charters/, os/direction/annual-priorities.md, data/observations/]
+writes: [os/planning/quarterly/okrs.md, os/planning/quarterly/retrospective.md, os/planning/quarterly/roadmap.md, os/accountability/goals.md]
 ---
 # Plan the quarter
 
@@ -23,7 +23,7 @@ of the new quarter — not three weeks into it.
 2. **Separate missed from mis-set.** A KR that was never worked is a prioritisation failure. A KR
    that was worked hard and missed is a modelling failure. They have different fixes.
 3. **Write the retrospective as decisions, not feelings.** Three things to keep, three to change,
-   each with an owner. File it in `os/planning/quarterly/retrospectives.md`.
+   each with an owner. File it in `os/planning/quarterly/retrospective.md`.
 4. **Carry nothing silently.** Anything rolling into next quarter gets re-argued on its merits or
    it dies here.
 

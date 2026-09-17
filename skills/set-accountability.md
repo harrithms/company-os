@@ -3,7 +3,7 @@ status: template
 owner: ~
 reviewed: ~
 runs: when someone takes on a new area, or at quarter open
-reads: [os/accountability/metrics.md, os/accountability/goals.md, os/accountability/org-chart.md, os/accountability/status-rules.md]
+reads: [os/accountability/metrics.md, os/accountability/goals.md, os/accountability/org-chart.json, os/accountability/status-rules.md]
 writes: [os/accountability/goals.md, os/decisions/log.md]
 ---
 # Set accountability
@@ -19,7 +19,7 @@ someone is about to become responsible for a number.
 
 ## What you need in front of you
 
-- `os/accountability/org-chart.md` — who this person reports to, and what their team owns
+- `os/accountability/org-chart.json` — who this person reports to, and what their team owns
 - `os/accountability/metrics.md` — whether the metric already exists and is defined
 - `os/accountability/goals.md` — the current targets, so the new one is consistent with them
 - `os/direction/north-star.md` — the number this one has to eventually roll up to

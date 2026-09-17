@@ -7,7 +7,7 @@
 // version of that: if the frontmatter is wrong, nothing downstream can rely on it. It deliberately
 // does NOT check whether what you wrote is any good — that is the one job it cannot do for you.
 
-import { readdirSync, readFileSync, statSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
 
 const ROOT = new URL('..', import.meta.url).pathname
@@ -88,6 +88,24 @@ function checkSkill(file) {
   for (const k of ['runs', 'reads', 'writes']) {
     if (!field(k)) problems.push(`${rel}: no ${k}: in the frontmatter. A skill declares its contract.`)
   }
+  // A skill's whole claim is that its blast radius is declared and therefore
+  // checkable. That is only true if someone checks it. An os/ path must resolve
+  // to a real file — those are authored and in the repo. data/ and reports/
+  // paths are output locations a template repo has not created yet, so a
+  // missing one is a note, not a failure.
+  for (const key of ['reads', 'writes']) {
+    const raw = (fm[1].match(new RegExp(`^${key}:\\s*(.*)$`, 'm')) || [, ''])[1]
+    for (const decl of raw.replace(/^\[|\]$/g, '').split(',').map((x) => x.trim()).filter(Boolean)) {
+      const bare = decl.replace(/<[^>]*>/g, '').replace(/\/$/, '')
+      if (existsSync(join(ROOT, bare))) continue
+      if (decl.startsWith('os/')) {
+        problems.push(`${rel}: ${key} declares ${decl}, which does not exist. A declared blast radius that does not resolve is worse than none.`)
+      } else {
+        notes.push(`${rel}: ${key} declares ${decl}, not created yet — expected for an output path.`)
+      }
+    }
+  }
+
   const missing = SKILL_SECTIONS.filter((h) => !text.includes(h))
   if (missing.length) {
     problems.push(`${rel}: missing ${missing.join(', ')}.`)
